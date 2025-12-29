@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11312.210 d18.3
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudNativeDevelopment.AppHost", "CloudNativeDevelopment.AppHost\CloudNativeDevelopment.AppHost.csproj", "{6B9E0C06-96D5-473B-976B-24C2E7423E92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudNativeDevelopment.ServiceDefaults", "CloudNativeDevelopment.ServiceDefaults\CloudNativeDevelopment.ServiceDefaults.csproj", "{BAB6914B-D4D4-4B4B-BB10-85CB907CB80A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudNativeDevelopment.ApiService", "CloudNativeDevelopment.ApiService\CloudNativeDevelopment.ApiService.csproj", "{39BC63CB-801C-43F4-B873-63E48C4693A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudNativeDevelopment.Tests", "CloudNativeDevelopment.Tests\CloudNativeDevelopment.Tests.csproj", "{7B40572F-B4FC-4C91-B455-227F34A82D31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudNativeDevelopment.Web", "CloudNativeDevelopment.Web\CloudNativeDevelopment.Web.csproj", "{6486AB41-325B-467B-BC5C-293C40BA6236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudNativeDevelopment.Grains", "CloudNativeDevelopment.Grains\CloudNativeDevelopment.Grains.csproj", "{C65957BC-35B1-43F4-9E72-E13CC56A88E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B9E0C06-96D5-473B-976B-24C2E7423E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9E0C06-96D5-473B-976B-24C2E7423E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9E0C06-96D5-473B-976B-24C2E7423E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9E0C06-96D5-473B-976B-24C2E7423E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB6914B-D4D4-4B4B-BB10-85CB907CB80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB6914B-D4D4-4B4B-BB10-85CB907CB80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB6914B-D4D4-4B4B-BB10-85CB907CB80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB6914B-D4D4-4B4B-BB10-85CB907CB80A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39BC63CB-801C-43F4-B873-63E48C4693A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BC63CB-801C-43F4-B873-63E48C4693A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BC63CB-801C-43F4-B873-63E48C4693A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BC63CB-801C-43F4-B873-63E48C4693A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B40572F-B4FC-4C91-B455-227F34A82D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B40572F-B4FC-4C91-B455-227F34A82D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B40572F-B4FC-4C91-B455-227F34A82D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B40572F-B4FC-4C91-B455-227F34A82D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6486AB41-325B-467B-BC5C-293C40BA6236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6486AB41-325B-467B-BC5C-293C40BA6236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6486AB41-325B-467B-BC5C-293C40BA6236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6486AB41-325B-467B-BC5C-293C40BA6236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65957BC-35B1-43F4-9E72-E13CC56A88E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65957BC-35B1-43F4-9E72-E13CC56A88E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65957BC-35B1-43F4-9E72-E13CC56A88E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65957BC-35B1-43F4-9E72-E13CC56A88E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C867E45F-D5F3-48D3-A248-9CBD4DE7AD09}
+	EndGlobalSection
+EndGlobal

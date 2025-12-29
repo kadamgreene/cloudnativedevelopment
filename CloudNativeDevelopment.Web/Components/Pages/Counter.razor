@@ -1,0 +1,29 @@
+﻿@page "/counter"
+@using CloudNativeDevelopment.Grains
+@using System.Threading.Tasks
+@rendermode InteractiveServer
+@inject IClusterClient Client
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+    private ICounterGrain counter;
+
+    protected override async Task OnInitializedAsync()
+    {
+        counter = Client.GetGrain<ICounterGrain>("counter");
+        currentCount = await counter.GetCountAsync();
+    }
+
+    private async Task IncrementCount()
+    {
+        currentCount = await counter.IncrementAsync();
+    }
+}
